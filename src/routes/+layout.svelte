@@ -3,36 +3,23 @@
 </script>
 
 <header>
-	<div class="flex flex-col md:flex-row justify-between pt-4">
-		<div class="flex text-center font-bold">
-			Give To Better Lives
-		</div>
-		<nav class="flex flex-col md:flex-row justify-between">
-			<ul class="gap-4 flex flex-col md:flex-row">
-				<li><a href="/home" class="hover:text-green-500">Home</a></li>
-				<li><a href="/about" class="hover:text-green-500">About</a></li>
-				<li><a href="/events" class="hover:text-green-500">Events</a></li>
-				<li><a href="/contact" class="hover:text-green-500">Contact</a></li>
-				<li>
-					<a
-						href="/donate"
-						class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-2 rounded block md:inline-block"
-						>Donate
-					</a>
-				</li>
-			</ul>
+	<div class="navbar">
+		<div class="navbar-title">Give To Better Lives</div>
+		<nav class="navbar-links">
+			<a href="/home" class="hover:text-green-500">Home</a>
+			<a href="/about" class="hover:text-green-500">About</a>
+			<a href="/events" class="hover:text-green-500">Events</a>
+			<a href="/contact" class="hover:text-green-500">Contact</a>
+			<a
+				href="/donate"
+				class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-2 rounded md:inline-block"
+				>Donate</a
+			>
 		</nav>
-		<div class="toggle_btn">
-			<i class="fa-solid fa-bars"></i>
-		</div>
 	</div>
 </header>
 
-<!-- Body content with increased padding at the top -->
-
-
 <slot />
-
 
 <footer class="bg-black text-white p-4">
 	<div class="container mx-auto">
@@ -63,3 +50,38 @@
 	</div>
 </footer>
 
+<style>
+	/* Header and navigation styles */
+	.navbar {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		max-width: 1048px; /* Adjust based on your design */
+		padding: 1rem;
+	}
+
+	.navbar-title {
+		font-size: 1.5rem;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.navbar-links {
+		display: flex;
+		gap: 16px;
+	}
+
+	.navbar-links a {
+		text-decoration: none;
+		color: #333;
+		font-weight: bold;
+		padding: 10px;
+		border-radius: 20px;
+		transition: background-color 0.3s ease;
+	}
+
+	.navbar-links a:hover {
+		background-color: #1bf30b;
+	}
+</style>
