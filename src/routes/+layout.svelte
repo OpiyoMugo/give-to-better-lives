@@ -1,23 +1,32 @@
 <script>
 	import '../app.css';
+
+	let activePage = '';
+ 
+	function setActivePage(page) {
+		 activePage = page;
+	}
 </script>
 
 <header>
 	<div class="navbar">
-		<div class="navbar-title">Give To Better Lives</div>
-		<nav class="navbar-links">
-			<a href="/home" class="hover:text-green-500">Home</a>
-			<a href="/about" class="hover:text-green-500">About</a>
-			<a href="/events" class="hover:text-green-500">Events</a>
-			<a href="/contact" class="hover:text-green-500">Contact</a>
-			<a
-				href="/donate"
-				class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-2 rounded md:inline-block"
-				>Donate</a
-			>
-		</nav>
+		 <div class="navbar-title">Give To Better Lives</div>
+		 <nav class="navbar-links">
+			 <a href="/home" class="hover:text-green-500" on:click={() => setActivePage('home')} class:bg-orange-500={activePage === 'home'}>Home</a>
+			 <a href="/about" class="hover:text-green-500" on:click={() => setActivePage('about')} class:bg-orange-500={activePage === 'about'}>About</a>
+			 <a href="/events" class="hover:text-green-500" on:click={() => setActivePage('events')} class:bg-orange-500={activePage === 'events'}>Events</a>
+			 <a href="/contact" class="hover:text-green-500" on:click={() => setActivePage('contact')} class:bg-orange-500={activePage === 'contact'}>Contact</a>
+			 <a href="/donate" class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-2 rounded md:inline-block" on:click={() => setActivePage('donate')} class:bg-orange-500={activePage === 'donate'}>Donate</a>
+		 </nav>
 	</div>
-</header>
+ </header>
+ 
+
+	
+
+
+
+
 
 <slot />
 
@@ -82,6 +91,11 @@
 	}
 
 	.navbar-links a:hover {
-		background-color: #1bf30b;
+		background-color: #92a191;
 	}
+	.bg-orange-500 {
+ background-color: #f97316; /* Example color */
+}
+
+
 </style>

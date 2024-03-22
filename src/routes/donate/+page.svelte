@@ -50,7 +50,7 @@
 							<img src="https://icma.org/sites/default/files/Volunteerism.jpeg" alt="" />
 							<div class="overlay"></div>
 					</div>
-					<p>Your paragraph text goes here. This is where you can describe the volunteer opportunity or provide additional information.</p>
+					<p>Volunteering with Give To Better Lives is not just about giving back, it's also a rewarding and fulfilling experience for you. As a volunteer, you'll have the opportunity to connect with like-minded individuals, gain valuable skills, and make a tangible impact on the lives of others. Together, we can create positive change and build a stronger, more compassionate community.</p>
 			</div>
 	</div>
 </div>
