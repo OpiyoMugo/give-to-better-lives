@@ -30,7 +30,7 @@
 <header>
 	<div class="navbar">
 	    <div class="navbar-title d-flex align-items-center">
-            <img src="https://www.canva.com/design/DAGAaF4kkss/llZZHr79iTFwf7ZG_96Lxw/edit?utm_content=DAGAaF4kkss&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" alt="" class="mr-3" style="height: 30px;"> <!-- Adjust the height as needed -->
+            <img src="org.jpg" alt="" class="mr-3" style="height: 30px;"> <!-- Adjust the height as needed -->
             Give To Better Lives
         </div>
 	   <nav class="bg-white text-bold-800">
