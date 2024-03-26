@@ -24,8 +24,8 @@ jobs:
       - name: Synch files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ${{secrets.FTP_SERVER_IP}}
-          username: ${{secrets.FTP_USERNAME}}
-          password: ${{secrets.FTP_PASSWORD}}
+          server: 66.96.162.146
+          username: wesleydulo9953528
+          password: h4R9!a7S7YqYWEu
           local-dir: ${{env.LOCAL_DIRECTORY}}
           server-dir: ${{env.SERVER_DIRECTORY}}
