@@ -58,7 +58,7 @@
 			<a href="/donate" class="py-2 px-3 block hover:bg-orange-500" >Donate</a>
 		</div>
 		</div>
-</nav>
+    </nav>
 		</div>
 </header>
 
