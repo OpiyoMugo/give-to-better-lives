@@ -20,29 +20,23 @@
 			a world where kindness knows no bounds and every person has the opportunity to thrive. Thank
 			you for being a vital part of our mission.
 		</p>
-		<form action="https://www.paypal.com/donate" method="post" target="_top">
-			<!-- Identify your business so that you can collect the payments. -->
-			<div id="donate-button-container">
-				<div id="donate-button"></div>
-				<script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js"></script>
-				<script>
-					PayPal.Donation.Button({
-						env: 'production',
-						business: 'makoribenard@ymail.com',
-						image: {
-							src: 'https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif',
-							alt: 'Donate with PayPal button',
-							title: 'PayPal - The safer, easier way to pay online!'
-						}
-					}).render('#donate-button');
-				</script>
-			</div>
-		</form>
 	</div>
 </div>
 
+<div class="center-form">
+    <section>
+        <form action="https://www.paypal.com/donate" method="post" target="_top">
+            <input type="hidden" name="business" value="PSQHAL78EMD8E" />
+            <input type="hidden" name="no_recurring" value="0" />
+            <input type="hidden" name="item_name" value="GIVE TO BETTER LIVES." />
+            <input type="hidden" name="currency_code" value="USD" />
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+            <img alt="" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
+        </form>
+    </section>
+</div>
+
 <div class="container">
-	<!-- Existing content -->
 	<div class="volunteer-section">
 			<h1 style:font-size="24px" style:font-weight="bold">Volunteer With Us</h1>
 			<div class="image-text-container">
@@ -57,14 +51,15 @@
 
 
 <style>
+	
 	.volunteer-section {
-		margin-top: 20px; /* Adjust as needed */
+		margin-top: 20px; 
 	}
 
 	.overlay-container {
 		position: relative;
-		width: 100%; /* Adjust as needed */
-		height: 300px; /* Adjust as needed */
+		width: 100%; 
+		height: 300px; 
 	}
 
 	.overlay-container img {
@@ -79,7 +74,7 @@
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background-color: light gray; /* Grey overlay with 50% opacity */
+		background-color: light gray; 
 	}
 
 	.container {
@@ -100,13 +95,21 @@
 	}
 
 	.text-container {
-		display: flexbox;
+		display: flex;
 		flex-direction: column;
-		align-items: flex-start;
+		align-items: flex;
 		justify-content: right;
 	}
 
-	
+	.center-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* Adjust the height as needed */
+    width: 100%;
+}
+
+
 </style>
 
 
