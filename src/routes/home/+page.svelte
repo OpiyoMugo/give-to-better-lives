@@ -3,6 +3,9 @@
 	let showVolunteerContent = false;
 	let showDonationsContent = false;
 
+	/**
+	 * @param {string} content
+	 */
 	function toggleContent(content) {
 		switch (content) {
 			case 'support':
