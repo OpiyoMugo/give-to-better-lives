@@ -26,6 +26,6 @@ jobs:
         with:
           server: 66.96.162.146
           username: wesleydulo9953528
-          password: F$mZLy/4.HrAm-t
+          password: Ryan@2018
           local-dir: ${{env.LOCAL_DIRECTORY}}
           server-dir: ${{env.SERVER_DIRECTORY}}
