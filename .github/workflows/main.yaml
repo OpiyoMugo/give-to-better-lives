@@ -19,13 +19,14 @@ jobs:
       - name: Build Files
         run: |
           npm install 
-          npm install pnpm
-          pnpm run build
+          npm run build
+          # npm install pnpm
+          # pnpm run build
 
       - name: Synch files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: 66.96.162.146
+          server: givetobetterlives.me
           username: GiveToBetterLives
           password: jH1K:7m&.;j3
           local-dir: ${{env.LOCAL_DIRECTORY}}
