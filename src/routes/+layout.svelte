@@ -1,6 +1,9 @@
 <script>
 	import '../app.css';
 
+	/**
+	 * @param {any} page
+	 */
 	function setActivePage(page) {
     // Remove active class from all links
     const links = document.querySelectorAll('.navigation-menu a');
@@ -15,17 +18,6 @@
 
 </script>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Give To Better Lives</title>
-     
-    <link rel="stylesheet" href="../app.css">
-  
- 
-</head>
 
 <header>
 	<div class="navbar">
@@ -52,20 +44,25 @@
 			   
 			 </div>
 		   </div>
-		   <!-- Primary Navigation -->
 		   <div class="hidden md:flex md:flex-row flex-col items-center justify-start md:space-x-1 navigation-menu pb-3 md:pb-0">
-			<a href="/home" class="py-2 px-3 block hover:bg-orange-500" onclick="setActivePage('home')">Home</a>
+			<!-- <a href="/home" class="py-2 px-3 block hover:bg-orange-500" onclick="setActivePage('home')">Home</a>
 			<a href="/about" class="py-2 px-3 block hover:bg-orange-500" onclick="setActivePage('about')">About</a>
 			<a href="/events" class="py-2 px-3 block hover:bg-orange-500" onclick="setActivePage('events')">Events</a>
 			<a href="/contact" class="py-2 px-3 block hover:bg-orange-500" onclick="setActivePage('contact')">Contact</a>
-			<a href="/donate" class="py-2 px-3 block hover:bg-orange-500" onclick="setActivePage('donate')">Donate</a>
+			<a href="/donate" class="py-2 px-3 block hover:bg-orange-500" onclick="setActivePage('donate')">Donate</a> -->
+
+			<a href="/home" class="py-2 px-3 block hover:bg-orange-500" >Home</a>
+			<a href="/about" class="py-2 px-3 block hover:bg-orange-500" >About</a>
+			<a href="/events" class="py-2 px-3 block hover:bg-orange-500" >Events</a>
+			<a href="/contact" class="py-2 px-3 block hover:bg-orange-500" >Contact</a>
+			<a href="/donate" class="py-2 px-3 block hover:bg-orange-500" >Donate</a>
 		</div>
 		</div>
-	   </nav>
-	</div>
+</nav>
+		</div>
 </header>
 
-</html>
+
 
 
  
