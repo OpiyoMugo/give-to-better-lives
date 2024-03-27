@@ -31,6 +31,8 @@ export default {
   kit: {
     adapter: adapter({
       // default options are shown
+
+	  fallback: 'index.html',
       out: 'build',
       precompress: true,
       envPrefix: ''
