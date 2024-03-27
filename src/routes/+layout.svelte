@@ -61,11 +61,7 @@
 				<div
 					class="hidden md:flex md:flex-row flex-col items-center justify-start md:space-x-1 navigation-menu pb-3 md:pb-0"
 				>
-					<!-- <a href="/home" class="py-2 px-3 block hover:bg-orange-500" onclick="setActivePage('home')">Home</a>
-			<a href="/about" class="py-2 px-3 block hover:bg-orange-500" onclick="setActivePage('about')">About</a>
-			<a href="/events" class="py-2 px-3 block hover:bg-orange-500" onclick="setActivePage('events')">Events</a>
-			<a href="/contact" class="py-2 px-3 block hover:bg-orange-500" onclick="setActivePage('contact')">Contact</a>
-			<a href="/donate" class="py-2 px-3 block hover:bg-orange-500" onclick="setActivePage('donate')">Donate</a> -->
+
 
 					<a href="/home" class="py-2 px-3 block hover:bg-orange-500">Home</a>
 					<a href="/about" class="py-2 px-3 block hover:bg-orange-500">About</a>
