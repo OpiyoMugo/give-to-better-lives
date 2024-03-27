@@ -68,27 +68,27 @@
 
 <div class="text-center p-4 mt-8">
 	<h2 class="text-3xl font-bold">
-		<span style="color: #D3D3D3;">WELCOME TO</span> G.T.B.L
+		<span class="text-gray">WELCOME TO</span> G.T.B.L
 	</h2>
 	<p class="text-xl mt-2">
-		At Give To Better Lives, We Believe we can make a <span style="color: orange;">Difference</span>
+		At Give To Better Lives, We Believe we can make a <span class=" text-orange" >Difference</span>
 		in someone's life in Kenya and the world at large
 	</p>
 </div>
 
-<div class="flex flex-col md:flex-row gap-4 mt-8">
-	<div class="bg-gray-200 p-4 rounded">
-		<i class="fa fa-heart"></i>
-		<h3 class="text-xl font-bold">Support</h3>
-		<p>
+<div class="flex flex-col md:flex-row md:justify-center md:items-center gap-4 mt-8">
+	<div class="bg-gray p-4 rounded-md py-4 m-3">
+		
+		<h3 class="text-xl font-bold mb-3">Support</h3>
+		<p class="mb-3">
 			Our organization welcomes people from all over the world to participate in the journey of
 			improving the living conditions of the poor.
 		</p>
-		<button on:click={() => toggleContent('support')}>
+		<button class="text-orange-500" on:click={() => toggleContent('support')}>
 			{showSupportContent ? 'Read Less' : 'Read More'}
 		</button>
 		{#if showSupportContent}
-			<p>
+			<p class="mt-3">
 				We extend our heartfelt gratitude to each and every individual who chooses to support our
 				clothing donation programs through financial contributions. Your generosity enables us to
 				continue our mission of providing warmth, comfort, and dignity to children and homeless
@@ -98,21 +98,21 @@
 		{/if}
 	</div>
 
-	<div class="bg-gray-200 p-4 rounded">
-		<i class="fa fa-home"></i>
-		<h3 class="text-xl font-bold">Volunteer</h3>
-		<p>
+	<div class="bg-gray p-4 rounded-md py-4 m-3">
+		
+		<h3 class="text-xl font-bold mb-3">Volunteer</h3>
+		<p class="mb-3">
 			To show our appreciation, we host regular volunteer appreciation events, such as potlucks,
 			cookouts, and surprise parties. These events not only celebrate the hard work and dedication
 			of our volunteers but also provide opportunities for networking and team-building. We also
 			recognize volunteers through special awards, certificates, and even feature them in our annual
 			reports and on our social media platforms.
 		</p>
-		<button on:click={() => toggleContent('volunteer')}>
+		<button class="text-orange-500" on:click={() => toggleContent('volunteer')}>
 			{showVolunteerContent ? 'Read Less' : 'Read More'}
 		</button>
 		{#if showVolunteerContent}
-			<p>
+			<p class="mt-3">
 				Assist our team with distributing clothing donations to children and homeless individuals in
 				local communities. Whether it's setting up distribution events, handing out clothing items,
 				or providing logistical support, your presence can make a meaningful impact on those we
@@ -120,20 +120,20 @@
 			</p>
 		{/if}
 	</div>
-	<div class="bg-gray-200 p-4 rounded">
-		<i class="fa fa-check"></i>
-		<h3 class="text-xl font-bold">Donations</h3>
-		<p>
+	<div class="bg-gray p-4 rounded-md py-4 m-3">
+	
+		<h3 class="text-xl font-bold mb-3">Donations</h3>
+		<p class="mb-3">
 			Making a financial donation is easy and secure. You can contribute online through our
 			website's secure donation portal or by mailing a check to our office. Whether it's a one-time
 			donation or a recurring contribution, every amount makes a meaningful difference in the lives
 			of those we serve.
 		</p>
-		<button on:click={() => toggleContent('donations')}>
+		<button class="text-orange-500" on:click={() => toggleContent('donations')}>
 			{showDonationsContent ? 'Read Less' : 'Read More'}
 		</button>
 		{#if showDonationsContent}
-			<p>
+			<p class="mt-3">
 				Behind every clothing donation is a network of operational expenses, including
 				transportation, storage, sorting, and distribution costs. Your contributions help cover
 				these essential expenses, allowing us to efficiently manage the donation process and reach
