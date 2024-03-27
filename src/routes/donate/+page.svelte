@@ -1,3 +1,7 @@
+<script>
+		import PayPal from '../../components/paypal.svelte';
+</script>
+
 <div class="container">
 	<div class="image-container">
 		<img
@@ -23,17 +27,10 @@
 	</div>
 </div>
 
-<div class="center-form">
-    <section>
-        <form action="https://www.paypal.com/donate" method="post" target="_top">
-            <input type="hidden" name="business" value="PSQHAL78EMD8E" />
-            <input type="hidden" name="no_recurring" value="0" />
-            <input type="hidden" name="item_name" value="GIVE TO BETTER LIVES." />
-            <input type="hidden" name="currency_code" value="USD" />
-            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-            <img alt="" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
-        </form>
-    </section>
+<div class="flex items-center justify-center">
+
+	<PayPal />
+
 </div>
 
 <div class="container">

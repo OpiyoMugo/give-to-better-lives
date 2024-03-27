@@ -1,4 +1,5 @@
 <script>
+		import PayPal from '../../components/paypal.svelte';
 	let showSupportContent = false;
 	let showVolunteerContent = false;
 	let showDonationsContent = false;
@@ -35,12 +36,8 @@
 		</p>
 
 		<div class="flex space-x-4 text-center items-center mt-4">
-			<a
-				href="/donate"
-				class="bg-green-800 hover:bg-orange-500 text-white font-bold py-2 px-4 rounded"
-			>
-				Donate Now
-			</a>
+			<PayPal />
+			
 		</div>
 	</div>
 </div>
@@ -58,12 +55,9 @@
 			us reach more poor communities and empower them.
 		</p>
 		<div class="flex items-center justify-center space-x-4 mt-4">
-			<a
-				href="/donate"
-				class="bg-green-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded"
-			>
-				Donate Now</a
-			>
+
+			<PayPal />
+		
 		</div>
 	</div>
 
