@@ -76,7 +76,7 @@
 	</p>
 </div>
 
-<div class="grid grid-cols-3 gap-4 mt-8">
+<div class="flex flex-col md:flex-row gap-4 mt-8">
 	<div class="bg-gray-200 p-4 rounded">
 		<i class="fa fa-heart"></i>
 		<h3 class="text-xl font-bold">Support</h3>
@@ -97,6 +97,7 @@
 			</p>
 		{/if}
 	</div>
+
 	<div class="bg-gray-200 p-4 rounded">
 		<i class="fa fa-home"></i>
 		<h3 class="text-xl font-bold">Volunteer</h3>
@@ -141,8 +142,3 @@
 		{/if}
 	</div>
 </div>
-
-<link
-	rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-/>
