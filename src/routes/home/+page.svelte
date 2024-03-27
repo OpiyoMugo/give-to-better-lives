@@ -48,7 +48,7 @@
 	<div
 		class="bg-[url(https://images.pexels.com/photos/7293100/pexels-photo-7293100.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)] flex bg-cover h-[250px]  flex-col justify-center items-center text-white pt-16"
 	></div>
-	<div class="text-center p-4 bg-white">
+	<div class="text-center p-4 bg-white text">
 		<h1 class="text-4xl font-bold md:text-5xl">Give To Better Lives</h1>
 		<p class="text-xl mt-2 md:text-lg">
 			By Donating $1 or your used clothes, shoes, e.t.c, We commit to packaging and shipping to
