@@ -1,8 +1,6 @@
 <div class="container">
 	<div class="image">
-		<img src="https://images.pexels.com/photos/9532305/pexels-photo-9532305.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-			alt= ""
-		/>
+		<img src="hungry.png" alt="" />
 	</div>
 
 	<div class="text">
@@ -32,28 +30,36 @@
 
 <div class="what-we-do">
 	<h2>
-			<span style="color: orange; font-size: 24px; font-weight: bold;">What</span>
-			<span style="color: green; font-size: 24px; font-weight: bold;">We Do</span>
+		<span style="color: orange; font-size: 24px; font-weight: bold;">What</span>
+		<span style="color: green; font-size: 24px; font-weight: bold;">We Do</span>
 	</h2>
 	<div class="map-overlay">
-			<div class="box">
-					<h3 style="color: rgb(0, 200, 0);">Education</h3>
-					<p>Our Volunteers ensure marginalized individuals are well-educated to survive their environment.</p>
-			</div>
-			<div class="box">
-					<h3 style="color: rgb(0, 200, 0);">Donate Clothes</h3>
-					<p>We fight poverty by ensuring needy kids and families afford proper clothing.</p>
-			</div>
-			<div class="box">
-					<h3 style="color: rgb(0, 200, 0);">Protect Children</h3>
-					<p>We fight poverty by ensuring needy kids and families afford proper clothing.</p>
-			</div>
-			<div class="box">
-					<h3 style="color: rgb(0, 200, 0);">Support Families</h3>
-					<p>We improve the living conditions of families so as to prevent possible calamities.</p>
-			</div>
+		<div class="box">
+			<h3 style="color: rgb(0, 200, 0);">Education</h3>
+			<p>
+				Our Volunteers ensure marginalized individuals are well-educated to survive their
+				environment.
+			</p>
+		</div>
+		<div class="box">
+			<h3 style="color: rgb(0, 200, 0);">Donate Clothes</h3>
+			<p>We fight poverty by ensuring needy kids and families afford proper clothing.</p>
+		</div>
+		<div class="box">
+			<h3 style="color: rgb(0, 200, 0);">Protect Children</h3>
+			<p>We fight poverty by ensuring needy kids and families afford proper clothing.</p>
+		</div>
+		<div class="box">
+			<h3 style="color: rgb(0, 200, 0);">Support Families</h3>
+			<p>We improve the living conditions of families so as to prevent possible calamities.</p>
+		</div>
 	</div>
 </div>
+
+<link
+	rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
 
 <style>
 	.container {
@@ -121,8 +127,3 @@
 		box-shadow: 0 4px 8px rgba(181, 180, 180, 0.1);
 	}
 </style>
-
-<link
-	rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-/>

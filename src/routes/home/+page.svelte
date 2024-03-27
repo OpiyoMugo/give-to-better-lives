@@ -50,7 +50,7 @@
 <!-- Small screens -->
 <div class="  md:hidden">
 	<div
-		class="bg-[url(https://images.pexels.com/photos/7293100/pexels-photo-7293100.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)] flex bg-cover h-[250px] flex-col justify-center items-center text-white pt-16"
+		class="bg-[url(coverpage.png"
 	></div>
 
 	<div class="text-center p-4 bg-white text">
