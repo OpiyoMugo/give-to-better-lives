@@ -169,7 +169,7 @@
 				</a>
 			</div>
 			<div class="flex flex-col pt-4 gap-3">
-				<p>Email: makoribenard@ymail.com</p>
+				<p>Email:bmakori@givetobetterlives.me</p>
 				<p>Phone: + 8172170342/+254740219716</p>
 				<p>Location: 2404 Cheyenne dr. Big Spring Tx 79720 USA.</p>
 			</div>
