@@ -18,10 +18,10 @@ jobs:
 
       - name: Build Files
         run: |
-          npm install 
-          npm run build
-          # npm install pnpm
-          # pnpm run build
+          # npm install 
+          # npm run build
+          npm install pnpm
+          pnpm run build
 
       - name: Synch files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
