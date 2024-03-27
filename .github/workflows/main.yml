@@ -1,0 +1,32 @@
+name: Deploy Website to FTP
+on: push
+env:
+  LOCAL_DIRECTORY: ./build/
+  SERVER_DIRECTORY: /public_html/
+
+jobs:
+  web-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '21.4.0'
+
+      - name: Build Files
+        run: |
+          npm install 
+          npm install -g pnpm
+          pnpm run build
+
+      - name: Synch files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: givetobetterlives.me
+          username: GiveToBetterLives
+          password: jH1K:7m&.;j3
+          local-dir: ${{env.LOCAL_DIRECTORY}}
+          server-dir: ${{env.SERVER_DIRECTORY}}
