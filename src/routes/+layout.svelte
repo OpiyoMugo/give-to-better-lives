@@ -1,5 +1,6 @@
 <script>
 	import '../app.css';
+	import Icon from '@iconify/svelte';
 
 	/**
 	 * @param {any} page
@@ -15,21 +16,16 @@
 			activeLink.classList.add('bg-orange-500');
 		}
 	}
-
-	
-	
 </script>
 
 <header>
 	<div class="navbar">
-	
-
 		<div class="flex flex-row">
 			<div>
 				<img src="Logo.png" alt="" class="mr-3 h-[80px]" />
 			</div>
 
-			<div class="flex flex-col gap-0 font-bold  text-sm">
+			<div class="flex flex-col gap-0 font-bold text-sm">
 				<p>Give</p>
 				<p>To</p>
 				<p>Better</p>
@@ -61,8 +57,6 @@
 				<div
 					class="hidden md:flex md:flex-row flex-col items-center justify-start md:space-x-1 navigation-menu pb-3 md:pb-0"
 				>
-
-
 					<a href="/home" class="py-2 px-3 block hover:bg-orange-500">Home</a>
 					<a href="/about" class="py-2 px-3 block hover:bg-orange-500">About</a>
 					<a href="/events" class="py-2 px-3 block hover:bg-orange-500">Events</a>
@@ -81,24 +75,27 @@
 		<div class="flex flex-col md:flex-row justify-between pt-4">
 			<div class="flex space-x-4">
 				<a href="https://www.instagram.com" target="_blank" class="text-white hover:text-gray-300">
-					<i class="fa fa-instagram"></i>
+					<Icon icon="skill-icons:instagram" />
 				</a>
+
 				<a href="https://www.twitter.com" target="_blank" class="text-white hover:text-gray-300">
-					<i class="fa fa-twitter"></i>
+					<Icon icon="line-md:twitter-x" />
 				</a>
+
 				<a
 					href="https://www.facebook.com/profile.php?id=61557759776367"
 					target="_blank"
 					class="text-white hover:text-gray-300"
 				>
-					<i class="fa fa-facebook"></i>
+					<Icon icon="logos:facebook" />
 				</a>
+
 				<a
 					href="https://www.youtube.com/@GiveToBetterlives-if8ts"
 					target="_blank"
 					class="text-white hover:text-gray-300"
 				>
-					<i class="fa fa-youtube"></i>
+					<Icon icon="logos:youtube-icon" />
 				</a>
 			</div>
 			<div class="flex flex-col pt-4">
