@@ -1,30 +1,28 @@
-<div class="container">
-	<div class="image">
-		<img src="hungry.png" alt="" />
-	</div>
+<div class="image- md: flex">
+	<img src="hungry.png" alt="" />
+</div>
 
-	<div class="text">
-		<h1>
-			<span style="color: orange; font-size: 24px; font-weight: bold;">Who</span>
-			<span style="color: green; font-size: 24px; font-weight: bold;">We Are</span>
-		</h1>
-		<p>
-			A Charity Organization founded to ensure that children and families most in need have one
-			basic commodity of life, “Clothing”.
-		</p>
-		<p>
-			We commit ourselves to helping families in the poor communities, the marginalized and
-			underprivileged to improve their lives and achieve lasting victory against poverty.
-		</p>
-		<div class="text-center mt-4">
-			<a
-				href="https://www.youtube.com/@GiveToBetterlives-if8ts"
-				target="_blank"
-				class="youtube-button"
-			>
-				YouTube
-			</a>
-		</div>
+<div class="text">
+	<h1>
+		<span style="color: orange; font-size: 24px; font-weight: bold;">Who</span>
+		<span style="color: green; font-size: 24px; font-weight: bold;">We Are</span>
+	</h1>
+	<p>
+		A Charity Organization founded to ensure that children and families most in need have one basic
+		commodity of life, “Clothing”.
+	</p>
+	<p>
+		We commit ourselves to helping families in the poor communities, the marginalized and
+		underprivileged to improve their lives and achieve lasting victory against poverty.
+	</p>
+	<div class="text-center mt-4">
+		<a
+			href="https://www.youtube.com/@GiveToBetterlives-if8ts"
+			target="_blank"
+			class="youtube-button"
+		>
+			YouTube
+		</a>
 	</div>
 </div>
 
