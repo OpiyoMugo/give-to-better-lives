@@ -18,6 +18,7 @@
 		"@iconify/svelte": "^3.1.6",
 		"@playwright/test": "^1.42.1",
 		"@sveltejs/adapter-node": "^5.0.1",
+		"@sveltejs/adapter-static": "^3.0.1",
 		"@sveltejs/enhanced-img": "^0.1.9",
 		"@sveltejs/kit": "^2.5.4",
 		"@sveltejs/vite-plugin-svelte": "^3.0.2",

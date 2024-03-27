@@ -4,17 +4,17 @@
 	/**
 	 * @param {any} page
 	 */
-	// function setActivePage(page) {
-	// 	// Remove active class from all links
-	// 	const links = document.querySelectorAll('.navigation-menu a');
-	// 	links.forEach((link) => link.classList.remove('bg-orange-500'));
+	function setActivePage(page) {
+		// Remove active class from all links
+		const links = document.querySelectorAll('.navigation-menu a');
+		links.forEach((link) => link.classList.remove('bg-orange-500'));
 
-	// 	// Add active class to the clicked link
-	// 	const activeLink = document.querySelector(`.navigation-menu a[href="/${page}"]`);
-	// 	if (activeLink) {
-	// 		activeLink.classList.add('bg-orange-500');
-	// 	}
-	// }
+		// Add active class to the clicked link
+		const activeLink = document.querySelector(`.navigation-menu a[href="/${page}"]`);
+		if (activeLink) {
+			activeLink.classList.add('bg-orange-500');
+		}
+	}
 
 	
 	
@@ -39,7 +39,7 @@
 		<nav class="bg-white text-bold-800">
 			<div class="container mx-auto px-4 md:flex items-center gap-6">
 				<div class="flex items-center justify-between md:w-auto w-full">
-					<a href="navbar" class="flex items-center py-5 px-2 text-white flex-1"> </a>
+					<!-- <a href="navbar" class="flex items-center py-5 px-2 text-white flex-1"> </a> -->
 					<!-- Mobile Menu Button -->
 					<div class="md:hidden flex items-center">
 						<button class="mobile-menu-button">
