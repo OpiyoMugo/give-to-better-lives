@@ -24,11 +24,9 @@
 <!-- Large Screens -->
 
 <div
-	class="bg-[url(https://images.pexels.com/photos/7293100/pexels-photo-7293100.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)] bg-no-repeat md:bg-cover md:h-screen hidden md:flex flex-col text-white pt-16"
+	class="bg-[url('/coverpage.png')] bg-no-repeat md:bg-cover md:h-screen hidden md:flex flex-col text-white pt-16"
 >
 	<div class="text-center items-center justify-center p-4 flex flex-col">
-		
-
 		<h1 class="text-4xl font-bold md:text-5xl mt-40">Give To Better Lives</h1>
 		<p class="text-2xl flex justify-center items-center text-center md:text-lg mt-18 w-1/2 py-10">
 			By Donating $1 or your used clothes, shoes, e.t.c, We commit to packaging and shipping to
@@ -48,14 +46,11 @@
 </div>
 
 <!-- Small screens -->
-<div class="  md:hidden">
-	<div
-		class="bg-[url(coverpage.png"
-	></div>
+<div class=" md:hidden ">
+	<div class="bg-[url('/coverpage.png')] flex bg-cover h-[250px] flex-col justify-center items-center text-white pt-16 "></div>
 
-	<div class="text-center p-4 bg-gradient-to-b from-white to-gray  ">
+	<div class="text-center p-4 bg-gradient-to-b from-white to-gray">
 		<h1 class="text-4xl font-extrabold md:text-8x py-3">Give To Better Lives</h1>
-
 
 		<p class="text-xl text-center flex justify-center mt-2 md:text-lg pt-2">
 			By Donating $1 or your used clothes, shoes, e.t.c, We commit to packaging and shipping to
@@ -73,7 +68,7 @@
 	</div>
 </div>
 
-<div class="text-center p-4 mt-8  bg-white">
+<div class="text-center p-4 mt-8 bg-white">
 	<h2 class="text-xl font-bold">
 		<p class="">WELCOME TO</p>
 	</h2>
@@ -90,7 +85,6 @@
 	class="flex flex-col items-center justify-center lg:flex-row md:justify-center md:items-center gap-4 my-8 lg:mx-28"
 >
 	<div class="bg-gray p-4 rounded-md py-4 m-3 lg:w-1/3 lg:h-[500px]">
-	
 		<h3 class="text-xl font-bold mb-3">Support</h3>
 		<p class="mb-3">
 			Our organization welcomes people from all over the world to participate in the journey of
