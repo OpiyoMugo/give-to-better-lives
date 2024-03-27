@@ -87,7 +87,7 @@
 <div
 	class="flex flex-col items-center justify-center lg:flex-row md:justify-center md:items-center gap-4 my-8 lg:mx-28"
 >
-	<div class="bg-gray p-4 rounded-md py-4 m-3 lg:w-1/3 lg:h-[400px]">
+	<div class="bg-gray p-4 rounded-md py-4 m-3 lg:w-1/3 lg:h-[500px]">
 	
 		<h3 class="text-xl font-bold mb-3">Support</h3>
 		<p class="mb-3">
@@ -108,7 +108,7 @@
 		{/if}
 	</div>
 
-	<div class="bg-gray p-4 rounded-md py-4 m-3 lg:w-1/3 lg:h-[400px]">
+	<div class="bg-gray p-4 rounded-md py-4 m-3 lg:w-1/3 lg:h-[500px]">
 		<h3 class="text-xl font-bold mb-3">Volunteer</h3>
 		<p class="mb-3">
 			To show our appreciation, we host regular volunteer appreciation events, such as potlucks,
@@ -129,7 +129,7 @@
 			</p>
 		{/if}
 	</div>
-	<div class="bg-gray p-4 rounded-md py-4 m-3 lg:w-1/3 lg:h-[400px]">
+	<div class="bg-gray p-4 rounded-md py-4 m-3 lg:w-1/3 lg:h-[500px]">
 		<h3 class="text-xl font-bold mb-3">Donations</h3>
 		<p class="mb-3">
 			Making a financial donation is easy and secure. You can contribute online through our

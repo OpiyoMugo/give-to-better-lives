@@ -72,39 +72,31 @@
 
 <footer class="bg-black text-white p-4">
 	<div class="container mx-auto">
-		<div class="flex flex-col md:flex-row justify-between pt-4">
-			<div class="flex space-x-4">
-				<a href="https://www.instagram.com" target="_blank" class="text-white hover:text-gray-300">
-					<Icon icon="skill-icons:instagram" />
-				</a>
-
-				<a href="https://www.twitter.com" target="_blank" class="text-white hover:text-gray-300">
-					<Icon icon="line-md:twitter-x" />
-				</a>
-
+		<div class="flex flex-col md:flex-row justify-between">
+			<div class="flex gap-6 items-center justify-center">
 				<a
 					href="https://www.facebook.com/profile.php?id=61557759776367"
 					target="_blank"
 					class="text-white hover:text-gray-300"
 				>
-					<Icon icon="logos:facebook" />
+					<Icon icon="logos:facebook" width="40" />
 				</a>
 
 				<a
 					href="https://www.youtube.com/@GiveToBetterlives-if8ts"
 					target="_blank"
-					class="text-white hover:text-gray-300"
+					class="text-white hover:text-gray-300 pt-1"
 				>
-					<Icon icon="logos:youtube-icon" />
+					<Icon icon="logos:youtube-icon" width="40" />
 				</a>
 			</div>
-			<div class="flex flex-col pt-4">
+			<div class="flex flex-col pt-4 gap-3">
 				<p>Email: makoribenard@ymail.com</p>
 				<p>Phone: + 8172170342/+254740219716</p>
 				<p>Location: 2404 Cheyenne dr. Big Spring Tx 79720 USA.</p>
 			</div>
 		</div>
-		<div class="mt-4">
+		<div class="">
 			<p>Terms of Privacy | Copyright &copy; 2024 Designed by VOXART Studios</p>
 		</div>
 	</div>
