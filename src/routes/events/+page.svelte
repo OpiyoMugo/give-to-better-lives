@@ -3,12 +3,11 @@
 	const images = [
 		'event1.png',
 		'poverty.png',
-		'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZgVH0rAelJ2l7Ty-gU06ngwpGDnmeRJuUkw&usqp=CAU',
-		'https://1.bp.blogspot.com/-vImShZH8tME/U6K4B6jFj5I/AAAAAAAABYg/bSTs6fdfmm4/s1600/gaia_clothing_bin_cult_donate_your_clothes_for_a_better_world.jpg',
-		'https://www.movingmountainstrust.org/media/201449/exploring-social-enterprise-3.jpg?height=0&width=0&quality=&mode=Crop&center=0.5,0.5&bgcolor=',
-		'https://npr.brightspotcdn.com/dims4/default/cd82aa1/2147483647/strip/true/crop/4608x3072+0+0/resize/880x587!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fwrvo%2Ffiles%2F201310%2FBabaDogo3.jpg',
-		'https://st4.depositphotos.com/11089512/21554/i/450/depositphotos_215548860-stock-photo-donation-concept-woman-preparing-her.jpg',
-		'https://giveuswings.org/wp-content/uploads/2018/09/group-of-women-600x475.jpg'
+		'donating.png',
+		'africa.png',
+		'box.png',
+		'fbcoverpage.png',
+		'dump.png'
 	];
 </script>
 
