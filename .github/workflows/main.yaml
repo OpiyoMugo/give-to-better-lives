@@ -1,4 +1,4 @@
-name: Deploy Website to FTP
+name: Deploy Website to the domain
 on: push
 env:
   LOCAL_DIRECTORY: ./build/
