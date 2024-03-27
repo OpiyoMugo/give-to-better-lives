@@ -2,7 +2,7 @@
 	<img src="hungry.png" alt="" />
 </div>
 
-<div class="text">
+<div class="text flex">
 	<h1>
 		<span style="color: orange; font-size: 24px; font-weight: bold;">Who</span>
 		<span style="color: green; font-size: 24px; font-weight: bold;">We Are</span>
@@ -15,15 +15,6 @@
 		We commit ourselves to helping families in the poor communities, the marginalized and
 		underprivileged to improve their lives and achieve lasting victory against poverty.
 	</p>
-	<div class="text-center mt-4">
-		<a
-			href="https://www.youtube.com/@GiveToBetterlives-if8ts"
-			target="_blank"
-			class="youtube-button"
-		>
-			YouTube
-		</a>
-	</div>
 </div>
 
 <div class="what-we-do">
