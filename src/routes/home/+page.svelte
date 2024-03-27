@@ -57,15 +57,16 @@
 			provide needy families and kids without clothes. Your donation, no matter how much, will help
 			us reach more poor communities and empower them.
 		</p>
+		<div class="flex items-center justify-center space-x-4 mt-4">
+			<a
+				href="/donate"
+				class="bg-green-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded"
+			>
+				Donate Now</a
+			>
+		</div>
 	</div>
-	<div class="flex items-center justify-center space-x-4 mt-4">
-		<a
-			href="/donate"
-			class="bg-green-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded"
-		>
-			Donate Now</a
-		>
-	</div>
+
 </div>
 
 <div class="text-center p-4 mt-8 bg-white">

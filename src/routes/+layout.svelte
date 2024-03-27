@@ -38,7 +38,7 @@
 				</div>
 			</div>
 
-			<div class="hidden lg:ml-80 lg:flex px-3 py-2 text-xs">
+			<div class="hidden lg:ml-80 lg:flex px-10 py-2 text-xs">
 				<ul class="flex  lg:gap-10  md:pl-5 text-lg justify-between items-center">
 					<li>
 						<a
