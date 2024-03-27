@@ -41,6 +41,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sveltejs/adapter-node": "^5.0.1",
 		"@sveltejs/adapter-static": "^3.0.1",
 		"iconify-icon": "^2.0.0",
 		"pnpm": "^8.15.4"
