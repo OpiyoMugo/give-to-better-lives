@@ -49,10 +49,23 @@
 
 <header>
 	<div class="navbar">
-		<div class="navbar-title d-flex align-items-center">
+		<!-- <div class="navbar-title d-flex align-items-center">
 			<img src="org.jpg" alt="" class="mr-3" style="height: 30px;" />
-			<!-- Adjust the height as needed -->
+
 			Give To Better Lives
+		</div> -->
+
+		<div class="flex flex-row">
+			<div>
+				<img src="Logo.png" alt="" class="mr-3 h-[80px]" />
+			</div>
+
+			<div class="flex flex-col gap-0 font-bold  text-sm">
+				<p>Give</p>
+				<p>To</p>
+				<p>Better</p>
+				<p>Lives</p>
+			</div>
 		</div>
 		<nav class="bg-white text-bold-800">
 			<div class="container mx-auto px-4 md:flex items-center gap-6">
