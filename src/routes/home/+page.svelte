@@ -53,9 +53,11 @@
 		class="bg-[url(coverpage.png"
 	></div>
 
-	<div class="text-center p-4 bg-white text">
-		<h1 class="text-4xl font-extrabold md:text-8xl">Give To Better Lives</h1>
-		<p class="text-xl text-center flex justify-center mt-2 md:text-lg">
+	<div class="text-center p-4 bg-gradient-to-b from-white to-gray  ">
+		<h1 class="text-4xl font-extrabold md:text-8x py-3">Give To Better Lives</h1>
+
+
+		<p class="text-xl text-center flex justify-center mt-2 md:text-lg pt-2">
 			By Donating $1 or your used clothes, shoes, e.t.c, We commit to packaging and shipping to
 			provide needy families and kids without clothes. Your donation, no matter how much, will help
 			us reach more poor communities and empower them.
@@ -71,7 +73,7 @@
 	</div>
 </div>
 
-<div class="text-center p-4 mt-8">
+<div class="text-center p-4 mt-8  bg-white">
 	<h2 class="text-xl font-bold">
 		<p class="">WELCOME TO</p>
 	</h2>
