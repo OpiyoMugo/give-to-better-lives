@@ -6,18 +6,18 @@ const config = {
 	preprocess: vitePreprocess(),
 	kit: {
 		adapter: adapter({
-			fallback: 'index.html'
+			// fallback: 'index.html'
 
 		}),
-		prerender: {
-			entries: [
-			  '/home',
-			  '/about',
-			  '/events',
-			  '/contacts',
-			  '/donate',
-			],
-		  },
+		// prerender: {
+		// 	entries: [
+		// 	  '/home',
+		// 	  '/about',
+		// 	  '/events',
+		// 	  '/contacts',
+		// 	  '/donate',
+		// 	],
+		//   },
 	}
 };
 

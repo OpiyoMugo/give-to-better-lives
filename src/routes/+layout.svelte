@@ -16,44 +16,13 @@
 	// 	}
 	// }
 
-	import { page } from '$app/stores';
-	import { onMount } from 'svelte';
-
-	$: currentPage = $page.url.pathname;
-
-	// Function to set active class based on current route
-	/**
-	 * @param {any} page
-	 */
-	function setActivePage(page) {
-		const links = document.querySelectorAll('.navigation-menu a');
-		links.forEach((link) => link.classList.remove('bg-orange-500'));
-		const activeLink = document.querySelector(`.navigation-menu a[href="/${page}"]`);
-		if (activeLink) {
-			activeLink.classList.add('bg-orange-500');
-		}
-	}
-
-	// Function to redirect to home if a dynamic route is accessed directly
-	async function redirectIfDynamicRoute() {
-		const dynamicRoutes = ['/home', '/about', '/events', '/contact', '/donate'];
-		if (!dynamicRoutes.includes(currentPage)) {
-			// Redirect to home if the route is dynamic
-			window.location.href = '/home';
-		}
-	}
-
-	// Call the redirectIfDynamicRoute function when the component mounts
-	onMount(redirectIfDynamicRoute);
+	
+	
 </script>
 
 <header>
 	<div class="navbar">
-		<!-- <div class="navbar-title d-flex align-items-center">
-			<img src="org.jpg" alt="" class="mr-3" style="height: 30px;" />
-
-			Give To Better Lives
-		</div> -->
+	
 
 		<div class="flex flex-row">
 			<div>
