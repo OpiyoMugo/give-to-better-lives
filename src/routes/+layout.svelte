@@ -1,6 +1,8 @@
 <script>
 	import '../app.css';
 	import Icon from '@iconify/svelte';
+	import { Hamburger } from 'svelte-hamburgers';
+	import { page } from '$app/stores';
 
 	/**
 	 * @param {any} page
@@ -16,56 +18,132 @@
 			activeLink.classList.add('bg-orange-500');
 		}
 	}
+	let open = false;
 </script>
 
 <header>
-	<div class="navbar">
-		<div class="flex flex-row">
-			<div>
-				<img src="Logo.png" alt="" class="mr-3 h-[80px]" />
+	<nav class="bg-transparent p-4">
+		<!-- Large screen navigation bar -->
+
+		<div class="hidden lg:flex flex-row ">
+			<div class="flex flex-row">
+				<div>
+					<img src="Logo.png" alt="" class="mr-3 h-[80px]" />
+				</div>
+				<div class="flex flex-col gap-0 font-bold text-sm">
+					<p>Give</p>
+					<p>To</p>
+					<p>Better</p>
+					<p>Lives</p>
+				</div>
 			</div>
 
-			<div class="flex flex-col gap-0 font-bold text-sm">
-				<p>Give</p>
-				<p>To</p>
-				<p>Better</p>
-				<p>Lives</p>
+			<div class="hidden lg:ml-80 lg:flex px-3 py-2 text-xs">
+				<ul class="flex  lg:gap-10  md:pl-5 text-lg justify-between items-center">
+					<li>
+						<a
+							href="/home"
+							class="hover:text-orange-500 {$page.route.id === '/' || $page.route.id === '/home'
+								? 'text-orange-500'
+								: ''}   active:text-orange-500">Home</a
+						>
+					</li>
+
+					<li>
+						<a
+							href="/about"
+							class="hover:text-orange-500 {$page.route.id === '/about' ? 'text-orange-500' : ''}"
+							>About Us</a
+						>
+					</li>
+
+					<li>
+						<a
+							href="/events"
+							class="hover:text-orange-500 {$page.route.id === '/events' ? 'text-orange-500' : ''}"
+							>Events</a
+						>
+					</li>
+
+					<li>
+						<a
+							href="/contact"
+							class="hover:text-mainGold {$page.route.id === '/contact' ? 'text-orange-500' : ''}"
+							>Contacts</a
+						>
+					</li>
+
+					<li>
+						<a
+							href="/donate"
+							class="hover:text-mainGold {$page.route.id === '/donate' ? 'text-orange-500' : ''} "
+							>Donate</a
+						>
+					</li>
+				</ul>
 			</div>
 		</div>
-		<nav class="bg-white text-bold-800">
-			<div class="container mx-auto px-4 md:flex items-center gap-6">
-				<div class="flex items-center justify-between md:w-auto w-full">
-					<!-- <a href="navbar" class="flex items-center py-5 px-2 text-white flex-1"> </a> -->
-					<!-- Mobile Menu Button -->
-					<div class="md:hidden flex items-center">
-						<button class="mobile-menu-button">
-							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-								<title>bars-3-bottom-left</title>
-								<g fill="none">
-									<path
-										d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12"
-										stroke="currentColor"
-										stroke-width="1.5"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-									></path>
-								</g>
-							</svg>
-						</button>
-					</div>
+
+		<!-- Small screen navigation bar (hamburger menu) -->
+
+		<div class="lg:hidden flex flex-row justify-between">
+			<div class="flex flex-row">
+				<div>
+					<img src="Logo.png" alt="" class="mr-3 h-[80px]" />
 				</div>
-				<div
-					class="hidden md:flex md:flex-row flex-col items-center justify-start md:space-x-1 navigation-menu pb-3 md:pb-0"
-				>
-					<a href="/home" class="py-2 px-3 block hover:bg-orange-500">Home</a>
-					<a href="/about" class="py-2 px-3 block hover:bg-orange-500">About</a>
-					<a href="/events" class="py-2 px-3 block hover:bg-orange-500">Events</a>
-					<a href="/contact" class="py-2 px-3 block hover:bg-orange-500">Contact</a>
-					<a href="/donate" class="py-2 px-3 block hover:bg-orange-500">Donate</a>
+				<div class="flex flex-col gap-0 font-bold text-sm">
+					<p>Give</p>
+					<p>To</p>
+					<p>Better</p>
+					<p>Lives</p>
 				</div>
 			</div>
-		</nav>
-	</div>
+			<div class="text-black"><Hamburger bind:open --color="black" /></div>
+		</div>
+
+		<!-- Dropdown menu for small screens -->
+		{#if open}
+			<div class=" items-center py-3 lg:hidden">
+				<ul class="flex flex-col pl-10 items-start font-bold space-y-2">
+					<li>
+						<a
+							href="/home"
+							class={$page.route.id === '/' || $page.route.id === '/home' ? 'text-orange-500' : ''}
+							on:click={() => (open = false)}>Home</a
+						>
+					</li>
+					<li>
+						<a
+							href="/about"
+							class={$page.route.id === '/about' ? 'text-orange-500' : ''}
+							on:click={() => (open = false)}>About Us</a
+						>
+					</li>
+					<li>
+						<a
+							href="/events"
+							class={$page.route.id === '/events' ? 'text-orange-500' : ''}
+							on:click={() => (open = false)}>Events</a
+						>
+					</li>
+					<li>
+						<a
+							href="/contact"
+							class={$page.route.id === '/contact' ? 'text-orange-500' : ''}
+							on:click={() => (open = false)}>Contact Us</a
+						>
+					</li>
+					<li>
+						<a
+							href="/donate"
+							class={$page.route.id === '/donate' ? 'text-orange-500' : ''}
+							on:click={() => (open = false)}>Donates</a
+						>
+					</li>
+				</ul>
+			</div>
+		{/if}
+	</nav>
 </header>
 
 <slot />
@@ -101,26 +179,3 @@
 		</div>
 	</div>
 </footer>
-
-<style>
-	@media only screen and (max-width: 600px) {
-		.navbar {
-			visibility: visible;
-		}
-	}
-
-	.navbar {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		width: 100%;
-		max-width: 1048px;
-		padding: 1rem;
-	}
-
-	.navbar-title {
-		font-size: 1.5rem;
-		font-weight: bold;
-		text-align: center;
-	}
-</style>
