@@ -1,8 +1,8 @@
 <script>
 	let showMore = false;
 	const images = [
-		'children.jpg',
-		'https://www.habitatforhumanity.org.uk/wp-content/uploads/2017/04/Poverty-and-education-in-east-Africa-.jpg',
+		'event1.png',
+		'poverty.png',
 		'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZgVH0rAelJ2l7Ty-gU06ngwpGDnmeRJuUkw&usqp=CAU',
 		'https://1.bp.blogspot.com/-vImShZH8tME/U6K4B6jFj5I/AAAAAAAABYg/bSTs6fdfmm4/s1600/gaia_clothing_bin_cult_donate_your_clothes_for_a_better_world.jpg',
 		'https://www.movingmountainstrust.org/media/201449/exploring-social-enterprise-3.jpg?height=0&width=0&quality=&mode=Crop&center=0.5,0.5&bgcolor=',
