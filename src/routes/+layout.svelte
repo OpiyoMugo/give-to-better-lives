@@ -25,7 +25,7 @@
 	<nav class="bg-transparent p-4">
 		<!-- Large screen navigation bar -->
 
-		<div class="hidden lg:flex flex-row ">
+		<div class="hidden lg:flex flex-row">
 			<div class="flex flex-row">
 				<div>
 					<img src="Logo.png" alt="" class="mr-3 h-[80px]" />
@@ -39,7 +39,7 @@
 			</div>
 
 			<div class="hidden lg:ml-80 xl:ml-120 lg:flex px-10 py-2 text-xs">
-				<ul class="flex  lg:gap-10  md:pl-5 text-lg justify-between items-center">
+				<ul class="flex lg:gap-10 md:pl-5 text-lg justify-between items-center">
 					<li>
 						<a
 							href="/home"
@@ -153,7 +153,7 @@
 		<div class="flex flex-col md:flex-row justify-between">
 			<div class="flex gap-6 items-center justify-center">
 				<a
-					href="https://www.facebook.com/profile.php?id=61557759776367"
+					href="https://www.facebook.com/profile.php?id=61557589626097&mibextid=JRoKGi"
 					target="_blank"
 					class="text-white hover:text-gray-300"
 				>
