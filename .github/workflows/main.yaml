@@ -18,6 +18,7 @@ jobs:
 
       - name: Build Files
         run: |
+          npm install 
           npm install pnpm
           pnpm run build
 
