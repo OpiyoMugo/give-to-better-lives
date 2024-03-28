@@ -1,11 +1,11 @@
 <div
-	class="bg-[url('/hungry.png')] flex bg-cover h-[500px] flex-col justify-center items-center text-white pt-16"
+	class="bg-[url('/hungry.png')] flex bg-cover md:visible h-[500px] flex-col justify-center items-center text-white pt-16"
 ></div>
 
 <div class="py-5 px-0.5 pt-0 bg-gradient-to-b flex-box items-center justify-center text-center">
 	<div class="text-center flex-col md:px-0">
-		<p class="uppercase text-3xl font-bold text-mainGold p-6">WHO WE ARE</p>
-		<p class=" justify-start items-start text-center flex">
+		<p class="uppercase text-3xl font-bold text-mainGold p-6 text-orange-600">WHO WE ARE</p>
+		<p class="text-center flex justify-center mt-2 md:text-lg text-10xl">
 			We are Give to Better Lives, a passionate charity dedicated to providing essential clothing to
 			impoverished children and families globally. With a heartfelt mission to alleviate hardship,
 			we strive to ensure every child and family in need has access to this fundamental necessity
@@ -16,7 +16,7 @@
 
 <div class="py-5 px-3 pt-0.5 pb-1 bg-gradient-to-b flex items-center justify-center text-center">
 	<div class="text-center flex-col md:px-1">
-		<p class="uppercase text-3xl font-bold texT p-0">WHAT WE DO</p>
+		<p class="uppercase text-3xl font-bold texT p-0 text-orange-600">WHAT WE DO</p>
 	</div>
 </div>
 
