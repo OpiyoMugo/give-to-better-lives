@@ -137,7 +137,7 @@
 						<a
 							href="/donate"
 							class={$page.route.id === '/donate' ? 'text-orange-500' : ''}
-							on:click={() => (open = false)}>Donates</a
+							on:click={() => (open = false)}>Donate</a
 						>
 					</li>
 				</ul>
