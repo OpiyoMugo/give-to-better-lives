@@ -69,7 +69,7 @@
 						<a
 							href="/contact"
 							class="hover:text-mainGold {$page.route.id === '/contact' ? 'text-orange-500' : ''}"
-							>Contacts</a
+							>Contact Us</a
 						>
 					</li>
 
