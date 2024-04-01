@@ -10,7 +10,7 @@
 		<p>
 			Got a question about Give To better Lives? We're here to help! Please feel free to reach out.
 		</p>
-		<a href="https://formsubmit.co/el/tetiva" target="_blank" class="email-button">Email us</a>
+		<a href="https://formsubmit.co/el/tafaka" target="_blank" class="email-button">Email us</a>
 	</div>
 </div>
 
