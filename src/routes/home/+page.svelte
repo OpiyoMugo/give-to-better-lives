@@ -1,6 +1,6 @@
 <script>
 	import PayPal from '../../components/paypal.svelte';
-	import Donations from '../../components/donations.svelte';
+
 
 	let showSupportContent = false;
 	let showVolunteerContent = false;
@@ -142,4 +142,4 @@
 	</div>
 </div>
 
-<Donations />
+
