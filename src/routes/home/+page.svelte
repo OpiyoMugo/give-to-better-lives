@@ -1,5 +1,7 @@
 <script>
-		import PayPal from '../../components/paypal.svelte';
+	import PayPal from '../../components/paypal.svelte';
+	import Donations from '../../components/donations.svelte';
+
 	let showSupportContent = false;
 	let showVolunteerContent = false;
 	let showDonationsContent = false;
@@ -37,14 +39,15 @@
 
 		<div class="flex space-x-4 text-center items-center mt-4">
 			<PayPal />
-			
 		</div>
 	</div>
 </div>
 
 <!-- Small screens -->
-<div class=" md:hidden ">
-	<div class="bg-[url('/coverpage.png')] flex bg-cover h-[250px] flex-col justify-center items-center text-white pt-16 "></div>
+<div class=" md:hidden">
+	<div
+		class="bg-[url('/coverpage.png')] flex bg-cover h-[250px] flex-col justify-center items-center text-white pt-16"
+	></div>
 
 	<div class="text-center p-4 bg-gradient-to-b from-white to-gray">
 		<h1 class="text-4xl font-extrabold md:text-8x py-3">Give To Better Lives</h1>
@@ -55,12 +58,9 @@
 			us reach more poor communities and empower them.
 		</p>
 		<div class="flex items-center justify-center space-x-4 mt-4">
-
 			<PayPal />
-		
 		</div>
 	</div>
-
 </div>
 
 <div class="text-center p-4 mt-8 bg-white">
@@ -141,3 +141,5 @@
 		{/if}
 	</div>
 </div>
+
+<Donations />
