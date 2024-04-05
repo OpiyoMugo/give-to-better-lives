@@ -1,80 +1,25 @@
-<div class="centered-container">
-	<div class="image-container">
-		<img
-			src="https://images.unsplash.com/photo-1633555741617-a8308850847b?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-			alt=""
-		/>
-	</div>
-	<div class="content-container">
-		<h1>Contact Us</h1>
-		<p>
-			Got a question about Give To better Lives? We're here to help! Please feel free to reach out.
-		</p>
-		<a href="https://formsubmit.co/el/tafaka" target="_blank" class="email-button">Email us</a>
+<div
+	class="relative bg-[url('/reachus.png')] h-[200px] lg:h-[500px] md:h-[400px] bg-cover bg-no-repeat px-5 py-5 flex items-center justify-center m-4 -my-2"
+>
+	<div
+		class="absolute top-[50%] w-full h-[50px] md:top-[87.5%] lg:top-[90%] md:w-3/4 flex items-center justify-center"
+	>
+		<p class="text-white font-bold text-2xl md:text-3xl">Contact Us</p>
 	</div>
 </div>
 
-<link
-	rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-/>
+<div class="flex flex-row items-center justify-center p-20 pb-8 pt-3">
+	<p class="text-xl from-inherit pt-5 m-30">
+		As a non-profit organization or donor, we invite you to join us in our mission to mobilize and
+		impact the world through the joyful art of giving
+	</p>
+</div>
 
-<style>
-	.centered-container {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		width: 100%;
-		max-width: 3600px;
-		padding: 20px;
-		position: relative;
-		background-image: url('https://images.unsplash.com/photo-1633555741617-a8308850847b?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-		background-size: cover;
-		background-position: center;
-	}
-
-	.content-container {
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		background-color: rgba(0, 0, 0, 0.5); /* Grey overlay */
-		color: #fff; /* Ensures the text is visible against the overlay */
-	}
-
-	.content-container h1 {
-		font-size: 2rem;
-		margin-bottom: 1rem;
-	}
-
-	.content-container p {
-		font-size: 1.5rem;
-		margin-bottom: 2rem;
-	}
-
-	/* Styles for the email button */
-	.email-button {
-		display: inline-block;
-		padding: 10px 20px;
-		background-color: #007bff;
-		color: #fff;
-		text-decoration: none;
-		border-radius: 5px;
-		font-weight: bold;
-		transition: background-color 0.3s ease;
-		text-align: center;
-		cursor: pointer;
-		min-width: 120px; /* Ensures the button is large enough to be easily tapped on mobile */
-		min-height: 44px; /* Minimum touch target size for mobile */
-	}
-
-	.email-button:hover {
-		background-color: #0056b3;
-	}
-</style>
+<div class="flex flex-col items-center justify-center -my-3">
+	<a
+		href="https://formsubmit.co/el/tafaka"
+		target="_blank"
+		class="text-xl text-white font-bold email-button bg-green-500 pr-8 hover:bg-orange-600 p-4 rounded-md m-20 flex justify-center items-center"
+		>Email Us</a
+	>
+</div>

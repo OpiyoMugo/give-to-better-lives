@@ -3,7 +3,7 @@
 </script>
 
 <div class="flex h-50 pt-0 px-4 py-4">
-	<img src="truck.png" alt="" />
+	<img src="truck.png" alt="" class="h-50 w-80.9" />
 </div>
 
 <h2 class="text-xl items-align justify-center flex font-bold pt-1 px-3">
