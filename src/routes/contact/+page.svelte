@@ -11,7 +11,7 @@
 <div class="flex flex-row items-center justify-center p-20 pb-8 pt-3">
 	<p class="text-l from-inherit pt-5 m-30">
 		As a non-profit organization or donor, we invite you to join us in our mission to mobilize and
-		impact the world through the joyful art of giving. Shoul you have any inquiry, pleasd reach out
+		impact the world through the joyful art of giving. Should you have any inquiry, please reach out
 		to our team.
 	</p>
 </div>
