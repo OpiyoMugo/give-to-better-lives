@@ -27,30 +27,18 @@
 </div>
 
 <div class="py-8 px-4 pt-4 ring-offset-blue-400 flex items-center justify-center">
-	<h1 class="text-xl font-bold pt-5 m-2">
+	<h1 class="text-xl font-bold pt-0 pb-0 m-0">
 		<p class="">OR</p>
 	</h1>
 </div>
 
 <div class="flex items-center justify-center">
-	<img src="/safaricom.png" alt="" class="h-20 pt-2 pb-0" />
+	<img src="/mpesa.png" alt="" class="h-40 m-5 mt-0 w-45" />
 </div>
 
 <div class="flex items-center justify-center">
-	<h2 class="flex-row pt-0 font-bold">
-		PAYBILL: <span style="color: green; font-weight: bold;">522533 </span>
-	</h2>
-</div>
-
-<div class="flex items-center justify-center">
-	<h2 class="flex-row pt-0 font-bold">
-		ACCOUNT NO: <span style="color: green; font-weight: bold;">7835338</span>
-	</h2>
-</div>
-
-<div class="flex items-center justify-center">
-	<h2 class="flex-row pt-0 font-bold">
-		BUSINESS NAME: <span style="color: black; font-weight: semi-bold;">BENARD MAKORI</span>
+	<h2 class="flex-row font-bold pt-0 m-0 h-3 pb-3">
+		BUSINESS NAME: <span style="color: black; font-weight: semi-bold;">GIVE TO BETTER LIVES</span>
 	</h2>
 </div>
 
