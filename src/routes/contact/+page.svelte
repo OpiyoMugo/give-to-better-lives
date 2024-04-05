@@ -9,9 +9,9 @@
 </div>
 
 <div class="flex flex-row items-center justify-center p-20 pb-8 pt-3">
-	<p class="text-xl from-inherit pt-5 m-30">
+	<p class="text-l from-inherit pt-5 m-30">
 		As a non-profit organization or donor, we invite you to join us in our mission to mobilize and
-		impact the world through the joyful art of giving
+		impact the world through the joyful art of giving. Contact our team for any inquiry.
 	</p>
 </div>
 
@@ -19,7 +19,7 @@
 	<a
 		href="https://formsubmit.co/el/tafaka"
 		target="_blank"
-		class="text-xl text-white font-bold email-button bg-green-500 pr-8 hover:bg-orange-600 p-4 rounded-md m-20 flex justify-center items-center"
+		class="text-l text-white font-bold email-button bg-green-500 pr-8 hover:bg-orange-600 p-4 rounded-md m-10 flex justify-center items-center"
 		>Email Us</a
 	>
 </div>
