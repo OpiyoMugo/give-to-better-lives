@@ -16,12 +16,20 @@
 	</h1>
 </div>
 
-<div class="flex items-start justify-start">
+<div class="flex items-start justify-center">
 	<h1 class="text-lg font-semibold">G.T.B.L Launch!</h1>
 </div>
 
 <div class="flex items-center">
-	<h2 class="text"</h2>
+	<h2 class="text-xl flex items-align justify-center text-center md:text-lg mt-18 py-5 px-4 pt-0">
+		<p>
+			We are thrilled to share with you the exciting news: Give To Better Lives is officially live
+			and ready to make a difference! Since our inception, we have been tirelessly working towards
+			making a difference in the lives of children and families. Now, with great pride and
+			enthusiasm, we are delighted to announce that our doors are open, and our mission is set in
+			motion.
+		</p>
+	</h2>
 </div>
 <div class="flex flex-col items-align h-200px w-400px">
 	{#each images as image, index}
