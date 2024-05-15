@@ -1,7 +1,7 @@
 <script>
 	let showMore = false;
 	const images = [
-		'launch1.png',
+		'launc.png',
 		'poverty.png',
 		'africa.png',
 		'box.png',
