@@ -27,7 +27,7 @@
 			and ready to make a difference! Since our inception, we have been tirelessly working towards
 			making a difference in the lives of children and families. Now, with great pride and
 			enthusiasm, we are delighted to announce that our doors are open, and our mission is set in
-			motion.
+			motion. G.T.B.L saw its first launch in May, 2024 in Kisii County, Kenya.
 		</p>
 	</h2>
 </div>
