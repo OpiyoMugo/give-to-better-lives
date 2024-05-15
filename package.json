@@ -45,6 +45,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"node": "^20.13.1",
 		"sqlite3": "^5.1.7"
 	}
 }
