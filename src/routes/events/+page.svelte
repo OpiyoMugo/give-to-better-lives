@@ -19,6 +19,10 @@
 <div class="flex items-start justify-start">
 	<h1 class="text-lg font-semibold">G.T.B.L Launch!</h1>
 </div>
+
+<div class="flex items-center">
+	<h2 class="text"</h2>
+</div>
 <div class="flex flex-col items-align h-200px w-400px">
 	{#each images as image, index}
 		{#if index < 8 || showMore}
