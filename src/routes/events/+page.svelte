@@ -12,7 +12,7 @@
 
 <div class="flex items-center justify-center">
 	<h1 class="text-2xl font-bold">
-		Join Us for our upcoming events and make a difference in the community!
+		Join Us for our upcoming events and make a difference in the community! This is our journey.
 	</h1>
 </div>
 
