@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 	import '../app.css';
 	import Icon from '@iconify/svelte';
 	import { Hamburger } from 'svelte-hamburgers';
@@ -8,11 +8,10 @@
 	 * @param {any} page
 	 */
 	function setActivePage(page) {
-		// Remove active class from all links
+	
 		const links = document.querySelectorAll('.navigation-menu a');
 		links.forEach((link) => link.classList.remove('bg-orange-500'));
 
-		// Add active class to the clicked link
 		const activeLink = document.querySelector(`.navigation-menu a[href="/${page}"]`);
 		if (activeLink) {
 			activeLink.classList.add('bg-orange-500');
@@ -23,7 +22,7 @@
 
 <header>
 	<nav class="bg-transparent p-4">
-		<!-- Large screen navigation bar -->
+
 
 		<div class="hidden lg:flex flex-row">
 			<div class="flex flex-row">
@@ -84,7 +83,7 @@
 			</div>
 		</div>
 
-		<!-- Small screen navigation bar (hamburger menu) -->
+	
 
 		<div class="lg:hidden flex flex-row justify-between">
 			<div class="flex flex-row">
@@ -101,7 +100,6 @@
 			<div class="text-black"><Hamburger bind:open --color="black" /></div>
 		</div>
 
-		<!-- Dropdown menu for small screens -->
 		{#if open}
 			<div class=" items-center py-3 lg:hidden">
 				<ul class="flex flex-col pl-10 items-start font-bold space-y-2">
@@ -178,4 +176,4 @@
 			<p>Terms of Privacy | Copyright &copy; 2024 Designed by VOXART Studios</p>
 		</div>
 	</div>
-</footer>
+</footer> -->
